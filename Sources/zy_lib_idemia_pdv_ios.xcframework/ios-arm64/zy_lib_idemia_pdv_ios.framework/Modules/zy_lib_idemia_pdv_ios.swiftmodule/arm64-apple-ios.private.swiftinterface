@@ -21,9 +21,9 @@ extension UIKit.UIColor {
   @objc deinit
 }
 public class ZyIdemiaPdv {
-  public typealias CallbackConfirmUI = (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>) -> Swift.Void
+  public typealias CallbackPdv = (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>) -> Swift.Void
   public init(onView: UIKit.UIViewController)
-  public func showConfirm(request: zy_lib_idemia_pdv_ios.ZyPdvRequest, completion: @escaping zy_lib_idemia_pdv_ios.ZyIdemiaPdv.CallbackConfirmUI)
+  public func initPdv(request: zy_lib_idemia_pdv_ios.ZyPdvRequest, completion: @escaping zy_lib_idemia_pdv_ios.ZyIdemiaPdv.CallbackPdv)
   @objc deinit
 }
 public struct ZyPdvRequest {

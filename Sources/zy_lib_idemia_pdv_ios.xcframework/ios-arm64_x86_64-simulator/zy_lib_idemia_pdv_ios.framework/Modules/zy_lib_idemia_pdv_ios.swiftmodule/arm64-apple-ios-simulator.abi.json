@@ -292,8 +292,8 @@
           },
           {
             "kind": "Function",
-            "name": "showConfirm",
-            "printedName": "showConfirm(request:completion:)",
+            "name": "initPdv",
+            "printedName": "initPdv(request:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -334,8 +334,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC11showConfirm7request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
-            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC11showConfirm7request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
+            "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC04initH07request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC04initH07request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
             "moduleName": "zy_lib_idemia_pdv_ios",
             "declAttributes": [
               "AccessControl"
@@ -1245,6 +1245,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -1263,16 +1273,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "zy_lib_idemia_pdv_ios"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "zy_lib_idemia_pdv_ios",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "TypeDecl",
