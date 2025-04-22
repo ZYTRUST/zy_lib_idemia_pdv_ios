@@ -1,0 +1,1543 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ParentViewController",
+        "printedName": "ParentViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@zy_lib_idemia_pdv_ios@objc(cs)ParentViewController(im)viewDidLoad",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios20ParentViewControllerC11viewDidLoadyyF",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ParentViewController",
+                "printedName": "zy_lib_idemia_pdv_ios.ParentViewController",
+                "usr": "c:@M@zy_lib_idemia_pdv_ios@objc(cs)ParentViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_lib_idemia_pdv_ios@objc(cs)ParentViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios20ParentViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_lib_idemia_pdv_ios.ParentViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ParentViewController",
+                    "printedName": "zy_lib_idemia_pdv_ios.ParentViewController",
+                    "usr": "c:@M@zy_lib_idemia_pdv_ios@objc(cs)ParentViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_lib_idemia_pdv_ios@objc(cs)ParentViewController(im)initWithCoder:",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios20ParentViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@zy_lib_idemia_pdv_ios@objc(cs)ParentViewController",
+        "mangledName": "$s21zy_lib_idemia_pdv_ios20ParentViewControllerC",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyIdemiaPdv",
+        "printedName": "ZyIdemiaPdv",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyIdemiaPdv",
+                "printedName": "zy_lib_idemia_pdv_ios.ZyIdemiaPdv",
+                "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC6onViewACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC6onViewACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showConfirm",
+            "printedName": "showConfirm(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyPdvRequest",
+                "printedName": "zy_lib_idemia_pdv_ios.ZyPdvRequest",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIConfirmResult",
+                    "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyLibResponse",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyLibResponse",
+                        "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV"
+                      }
+                    ],
+                    "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC11showConfirm7request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC11showConfirm7request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC",
+        "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyPdvRequest",
+        "printedName": "ZyPdvRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyPdvRequest",
+                "printedName": "zy_lib_idemia_pdv_ios.ZyPdvRequest",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestVACycfc",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestVACycfc",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV3urlSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5tokenSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV",
+        "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyLibResponse",
+        "printedName": "ZyLibResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyLibResponse",
+                "printedName": "zy_lib_idemia_pdv_ios.ZyLibResponse",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseVACycfc",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseVACycfc",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "coError",
+            "printedName": "coError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7coErrorSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deError",
+            "printedName": "deError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV7deErrorSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceId",
+            "printedName": "faceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV6faceIdSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV9sessionIdSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV",
+        "mangledName": "$s21zy_lib_idemia_pdv_ios13ZyLibResponseV",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUIConfirmResult",
+        "printedName": "ZyUIConfirmResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onSuccess",
+            "printedName": "onSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type) -> (τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO9onSuccessyACyxGxcAEmlF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO9onSuccessyACyxGxcAEmlF",
+            "moduleName": "zy_lib_idemia_pdv_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "onError",
+            "printedName": "onError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type) -> (τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO7onErroryACyxGxcAEmlF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO7onErroryACyxGxcAEmlF",
+            "moduleName": "zy_lib_idemia_pdv_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO",
+        "mangledName": "$s21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_idemia_pdv_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC21zy_lib_idemia_pdv_iosE3hexABSgSS_tcfc",
+            "mangledName": "$sSo7UIColorC21zy_lib_idemia_pdv_iosE3hexABSgSS_tcfc",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4026,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4203,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4378,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

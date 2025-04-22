@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 effective-4.1.50 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name zy_lib_idemia_pdv_ios
+import AVFoundation
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import zy_lib_idemia_pdv_ios
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ParentViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class ZyIdemiaPdv {
+  public typealias CallbackConfirmUI = (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>) -> Swift.Void
+  public init(onView: UIKit.UIViewController)
+  public func showConfirm(request: zy_lib_idemia_pdv_ios.ZyPdvRequest, completion: @escaping zy_lib_idemia_pdv_ios.ZyIdemiaPdv.CallbackConfirmUI)
+  @objc deinit
+}
+public struct ZyPdvRequest {
+  public init()
+  public var url: Swift.String?
+  public var token: Swift.String?
+}
+public struct ZyLibResponse {
+  public init()
+  public var coError: Swift.String?
+  public var deError: Swift.String?
+  public var faceId: Swift.String?
+  public var sessionId: Swift.String?
+}
+public enum ZyUIConfirmResult<T> {
+  case onSuccess(T)
+  case onError(T)
+}
