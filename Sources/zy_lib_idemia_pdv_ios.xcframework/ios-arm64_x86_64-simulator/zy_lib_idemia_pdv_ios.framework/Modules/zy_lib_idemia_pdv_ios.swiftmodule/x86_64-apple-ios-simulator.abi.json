@@ -309,7 +309,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>) -> ()",
+                "printedName": "(zy_lib_idemia_pdv_ios.ZyPdvResult<zy_lib_idemia_pdv_ios.ZyLibResponse>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -318,8 +318,8 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ZyUIConfirmResult",
-                    "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<zy_lib_idemia_pdv_ios.ZyLibResponse>",
+                    "name": "ZyPdvResult",
+                    "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<zy_lib_idemia_pdv_ios.ZyLibResponse>",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -328,14 +328,14 @@
                         "usr": "s:21zy_lib_idemia_pdv_ios13ZyLibResponseV"
                       }
                     ],
-                    "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                    "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC04initH07request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
-            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC04initH07request10completionyAA0fH7RequestV_yAA0F15UIConfirmResultOyAA0F11LibResponseVGctF",
+            "usr": "s:21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC04initH07request10completionyAA0fH7RequestV_yAA0fH6ResultOyAA0F11LibResponseVGctF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyIdemiaPdvC04initH07request10completionyAA0fH7RequestV_yAA0fH6ResultOyAA0F11LibResponseVGctF",
             "moduleName": "zy_lib_idemia_pdv_ios",
             "declAttributes": [
               "AccessControl"
@@ -1093,8 +1093,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ZyUIConfirmResult",
-        "printedName": "ZyUIConfirmResult",
+        "name": "ZyPdvResult",
+        "printedName": "ZyPdvResult",
         "children": [
           {
             "kind": "Var",
@@ -1104,17 +1104,17 @@
               {
                 "kind": "TypeFunc",
                 "name": "GenericFunction",
-                "printedName": "<τ_0_0> (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type) -> (τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                "printedName": "<τ_0_0> (zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>.Type) -> (τ_0_0) -> zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                    "printedName": "(τ_0_0) -> zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZyUIConfirmResult",
-                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "name": "ZyPdvResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1122,7 +1122,7 @@
                             "printedName": "τ_0_0"
                           }
                         ],
-                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                        "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1134,12 +1134,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type",
+                    "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZyUIConfirmResult",
-                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "name": "ZyPdvResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1147,7 +1147,7 @@
                             "printedName": "τ_0_0"
                           }
                         ],
-                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                        "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO"
                       }
                     ]
                   }
@@ -1155,8 +1155,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO9onSuccessyACyxGxcAEmlF",
-            "mangledName": "$s21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO9onSuccessyACyxGxcAEmlF",
+            "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO9onSuccessyACyxGxcAEmlF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyPdvResultO9onSuccessyACyxGxcAEmlF",
             "moduleName": "zy_lib_idemia_pdv_ios"
           },
           {
@@ -1167,17 +1167,17 @@
               {
                 "kind": "TypeFunc",
                 "name": "GenericFunction",
-                "printedName": "<τ_0_0> (zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type) -> (τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                "printedName": "<τ_0_0> (zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>.Type) -> (τ_0_0) -> zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(τ_0_0) -> zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                    "printedName": "(τ_0_0) -> zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZyUIConfirmResult",
-                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "name": "ZyPdvResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1185,7 +1185,7 @@
                             "printedName": "τ_0_0"
                           }
                         ],
-                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                        "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1197,12 +1197,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>.Type",
+                    "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZyUIConfirmResult",
-                        "printedName": "zy_lib_idemia_pdv_ios.ZyUIConfirmResult<τ_0_0>",
+                        "name": "ZyPdvResult",
+                        "printedName": "zy_lib_idemia_pdv_ios.ZyPdvResult<τ_0_0>",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1210,7 +1210,7 @@
                             "printedName": "τ_0_0"
                           }
                         ],
-                        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO"
+                        "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO"
                       }
                     ]
                   }
@@ -1218,14 +1218,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO7onErroryACyxGxcAEmlF",
-            "mangledName": "$s21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO7onErroryACyxGxcAEmlF",
+            "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO7onErroryACyxGxcAEmlF",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyPdvResultO7onErroryACyxGxcAEmlF",
             "moduleName": "zy_lib_idemia_pdv_ios"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO",
-        "mangledName": "$s21zy_lib_idemia_pdv_ios17ZyUIConfirmResultO",
+        "usr": "s:21zy_lib_idemia_pdv_ios11ZyPdvResultO",
+        "mangledName": "$s21zy_lib_idemia_pdv_ios11ZyPdvResultO",
         "moduleName": "zy_lib_idemia_pdv_ios",
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<T>",
@@ -1512,28 +1512,28 @@
       "value": "20"
     },
     {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
       "offset": 384,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelUI.swift",
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
       "offset": 423,
       "length": 2,
