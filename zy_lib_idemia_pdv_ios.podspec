@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.10'
-  s.summary          = 'A short description of zy_lib_idemia_pdv_ios.'
+  s.version          = '0.1.11'
+  s.summary          = 'zy_lib_idemia_pdv_ios es una libreria realizada por ZyTrust SA para pruebas de vida'
   s.swift_versions   = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Libreria nueva pdv WEB
+  Libreria nueva pdv WEB la cual esta orientada a verificar si una persona real esta detras de la camara
+  esta version es trabajada conjunto con IDEMIA LATAM .
+  ZyTrust SA
                        DESC
 
   s.homepage         = 'https://www.zytrust.com'
