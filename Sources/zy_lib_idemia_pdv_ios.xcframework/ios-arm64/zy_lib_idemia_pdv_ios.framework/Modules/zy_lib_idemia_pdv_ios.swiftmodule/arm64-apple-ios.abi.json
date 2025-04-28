@@ -16,13 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "zy_lib_idemia_pdv_ios"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1601,21 +1594,21 @@
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 4026,
+      "offset": 4011,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 4203,
+      "offset": 4188,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 4378,
+      "offset": 4363,
       "length": 2,
       "value": "20"
     },
