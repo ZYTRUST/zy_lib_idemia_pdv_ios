@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.7'
+  s.version          = '0.1.9'
   s.summary          = 'A short description of zy_lib_idemia_pdv_ios.'
   s.swift_versions   = '5.0'
 
@@ -33,13 +33,13 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "Sources/zy_lib_idemia_pdv_ios.xcframework"
 
-  s.static_framework = true
   s.pod_target_xcconfig = {
     'ONLY_ACTIVE_ARCH' => 'YES'
   }
 
     
-  s.frameworks = 'WebKit'
-  s.frameworks = 'UIKit'  
+  s.static_framework = true
+
+  s.frameworks = ['UIKit', 'WebKit']
 
 end
