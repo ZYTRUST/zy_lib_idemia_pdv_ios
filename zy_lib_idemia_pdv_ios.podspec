@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.9'
+  s.version          = '0.1.10'
   s.summary          = 'A short description of zy_lib_idemia_pdv_ios.'
   s.swift_versions   = '5.0'
 
@@ -40,6 +40,6 @@ Pod::Spec.new do |s|
     
   s.static_framework = true
 
-  s.frameworks = ['UIKit', 'WebKit']
+  s.frameworks = ['UIKit', 'WebKit', 'CoreAudioTypes', 'SwiftUICore']
 
 end
