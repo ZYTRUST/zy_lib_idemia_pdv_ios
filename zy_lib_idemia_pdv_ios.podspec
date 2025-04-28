@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of zy_lib_idemia_pdv_ios.'
   s.swift_versions   = '5.0'
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Ivan Caceres' => 'ztmobile@zytrust.com' }
   s.source           = { :git => 'https://github.com/ZYTRUST/zy_lib_idemia_pdv_ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   
   s.resources = ['Sources/zy_lib_idemia_pdv_ios.bundle']
 
