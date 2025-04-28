@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.13'
+  s.version          = '0.1.14'
   s.summary          = 'zy_lib_idemia_pdv_ios es una libreria realizada por ZyTrust SA para pruebas de vida'
   s.swift_versions   = '5.0'
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Ivan Caceres' => 'ztmobile@zytrust.com' }
   s.source           = { :git => 'https://github.com/ZYTRUST/zy_lib_idemia_pdv_ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   
   s.resources = ['Sources/zy_lib_idemia_pdv_ios.bundle']
 
@@ -45,6 +45,8 @@ Pod::Spec.new do |s|
     
   s.frameworks = 'WebKit'
   s.frameworks = 'UIKit'
+  s.frameworks = 'SwiftUI'
+
 end
 
 
