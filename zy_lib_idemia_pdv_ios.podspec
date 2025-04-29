@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.22'
+  s.version          = '0.1.23'
   s.summary          = 'zy_lib_idemia_pdv_ios es una libreria realizada por ZyTrust SA para pruebas de vida'
   s.swift_versions   = '5.0'
 
@@ -36,7 +36,9 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "Sources/zy_lib_idemia_pdv_ios.xcframework"
 
   s.pod_target_xcconfig = {
-    'ONLY_ACTIVE_ARCH' => 'YES'
+    'ONLY_ACTIVE_ARCH' => 'YES',
+      'OTHER_LDFLAGS' => '-lswift_Builtin_float -lswift_errno -lswift_math -lswift_signal -lswift_stdio -lswift_time -lswiftsys_time -lswiftunistd',
+
   }
 
     
