@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.28'
+  s.version          = '0.1.29'
   s.summary          = 'zy_lib_idemia_pdv_ios es una libreria realizada por ZyTrust SA para pruebas de vida'
   s.swift_versions   = '5.0'
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'WebKit'
   s.frameworks = 'UIKit'
   s.frameworks = 'SwiftUICore'
-  s.frameworks = 'CoreAudioTypes'
+  s.frameworks = 'CoreAudio'
 
 
 end
