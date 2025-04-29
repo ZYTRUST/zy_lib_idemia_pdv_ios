@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_idemia_pdv_ios'
-  s.version          = '0.1.34'
+  s.version          = '0.1.35'
   s.summary          = 'zy_lib_idemia_pdv_ios es una libreria realizada por ZyTrust SA para pruebas de vida'
   s.swift_versions   = '5.0'
 
