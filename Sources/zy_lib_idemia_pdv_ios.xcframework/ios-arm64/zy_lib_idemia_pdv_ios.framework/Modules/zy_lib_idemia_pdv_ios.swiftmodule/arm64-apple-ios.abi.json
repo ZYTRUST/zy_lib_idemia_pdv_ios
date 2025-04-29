@@ -640,6 +640,116 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "solId",
+            "printedName": "solId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvp",
+            "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvp",
+            "moduleName": "zy_lib_idemia_pdv_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvg",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvg",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvs",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvs",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvM",
+                "mangledName": "$s21zy_lib_idemia_pdv_ios12ZyPdvRequestV5solIdSSSgvM",
+                "moduleName": "zy_lib_idemia_pdv_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -1622,28 +1732,28 @@
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
-      "offset": 311,
+      "offset": 337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
-      "offset": 348,
+      "offset": 374,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
-      "offset": 384,
+      "offset": 410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_idemia_pdv_ios\/zy_lib_idemia_pdv_ios\/Classes\/ZyModelPdv.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 449,
       "length": 2,
       "value": "\"\""
     },
